@@ -1,0 +1,16 @@
+{
+  "name": "awesome-ai-carousel-tools",
+  "private": true,
+  "description": "AI carousel makers and TikTok slideshow tools, each read on its own website: what it makes, AI features, exports, posting, API or MCP, and free plan.",
+  "license": "CC0-1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "lint": "npx --yes awesome-lint@2.3.0 README.md",
+    "social": "node scripts/social-preview.mjs"
+  }
+}

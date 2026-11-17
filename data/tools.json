@@ -1,0 +1,1599 @@
+{
+  "updated": "2026-11-17",
+  "tools": [
+    {
+      "name": "aiCarousels",
+      "url": "https://www.aicarousels.com/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "threads",
+        "x"
+      ],
+      "makes": "Carousels, image posts and short videos from an idea, a link, a PDF or a YouTube video",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF",
+        "PNG",
+        "MP4"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": false,
+      "mcp": false,
+      "apiNote": "",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Takes many kinds of input and has ghostwriter voices; the free try is one carousel, and it posts only to LinkedIn.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.aicarousels.com/",
+        "https://www.aicarousels.com/pricing"
+      ]
+    },
+    {
+      "name": "BrandBird",
+      "url": "https://www.brandbird.app/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "x"
+      ],
+      "makes": "LinkedIn and Instagram carousels, plus other social graphics and app store screenshots",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [
+        "PDF"
+      ],
+      "postsTo": [],
+      "api": true,
+      "mcp": null,
+      "apiNote": "API page and a JavaScript SDK linked from the footer",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A design tool first that builds a carousel from a topic or a URL and can translate it; free exports carry a small watermark.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.brandbird.app/linkedin-carousel-generator"
+      ]
+    },
+    {
+      "name": "CarouselMaker.co",
+      "url": "https://carouselmaker.co/",
+      "focus": "instagram",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "pinterest",
+        "facebook",
+        "x"
+      ],
+      "makes": "Carousels and infographics from a topic, in many languages",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "MP4",
+        "PPTX"
+      ],
+      "postsTo": [],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A simple topic-to-carousel maker with video and PowerPoint export; the home page names no image or PDF export and no posting.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://carouselmaker.co/"
+      ]
+    },
+    {
+      "name": "Carousels Generator",
+      "url": "https://www.carousels-generator.com/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "x",
+        "threads"
+      ],
+      "makes": "Carousels from a topic or a draft, edited in a chat",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF",
+        "PNG",
+        "MP4"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [
+        "postsTo"
+      ],
+      "claimedFrom": "Product Hunt listing (the site says it publishes and schedules but names no network)",
+      "note": "You edit slides by chatting and can import a brand from a website or a PDF; its own page does not name the networks it posts to.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.carousels-generator.com/"
+      ]
+    },
+    {
+      "name": "Contentdrips",
+      "url": "https://contentdrips.com/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "tiktok"
+      ],
+      "makes": "Carousels, quote cards, infographics and other social graphics",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF",
+        "PNG"
+      ],
+      "postsTo": [
+        "linkedin",
+        "instagram"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API and MCP server; the pricing page lists them on the Pro plan",
+      "freePlan": "yes",
+      "claimed": [
+        "exports"
+      ],
+      "claimedFrom": "a comparison article found in search; contentdrips.com does not name its export formats",
+      "note": "Templates plus AI for carousels and graphics, with an API and MCP server for automation; the free plan is small.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://contentdrips.com/",
+        "https://contentdrips.com/pricing/"
+      ]
+    },
+    {
+      "name": "ContentIn",
+      "url": "https://contentin.io/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin"
+      ],
+      "makes": "LinkedIn PDF carousels and static carousels, inside a LinkedIn writing and scheduling suite",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": false,
+      "mcp": true,
+      "apiNote": "MCP server for Claude, ChatGPT and Cursor on paid plans; a free agent tier only schedules and publishes",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits LinkedIn creators who want carousels next to post writing and scheduling; the web app has a trial, not a free plan.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://contentin.io/feature/linkedin-carousel-maker/",
+        "https://contentin.io/pricing/"
+      ]
+    },
+    {
+      "name": "PostNitro",
+      "url": "https://postnitro.ai/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "facebook",
+        "threads",
+        "pinterest",
+        "x"
+      ],
+      "makes": "Carousels, single-image posts and short animated posts on a brand kit",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PNG",
+        "PDF",
+        "MP4"
+      ],
+      "postsTo": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "threads",
+        "facebook",
+        "pinterest"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API, CLI and an MCP server with 40 tools, as an add-on or in higher plans",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Makes carousels for seven networks and posts to six of them; scheduling and the API need a paid plan.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://postnitro.ai/",
+        "https://postnitro.ai/plans"
+      ]
+    },
+    {
+      "name": "Postiv",
+      "url": "https://postiv.ai/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin"
+      ],
+      "makes": "LinkedIn PDF carousels, inside a LinkedIn content and scheduling tool",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Its free carousel maker needs no sign-up and exports a 1080x1350 PDF; the free maker does not post, so you upload the file yourself.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://postiv.ai/linkedin-carousel-generator"
+      ]
+    },
+    {
+      "name": "Supergrow",
+      "url": "https://www.supergrow.ai/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin"
+      ],
+      "makes": "Branded LinkedIn carousels from a post, inside a LinkedIn writing and scheduling suite",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF",
+        "PNG"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "MCP server on Pro; API on Enterprise",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits LinkedIn creators who want carousels bundled with a calendar and a queue; the full tool has a trial, and a separate free generator page exists.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.supergrow.ai/",
+        "https://www.supergrow.ai/pricing",
+        "https://www.supergrow.ai/tools/linkedin-carousel-generator"
+      ]
+    },
+    {
+      "name": "Taplio",
+      "url": "https://taplio.com/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin"
+      ],
+      "makes": "LinkedIn PDF carousels and posts, with scheduling and analytics",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": null,
+      "mcp": true,
+      "apiNote": "MCP server to search ideas and create or fetch drafts from Claude, ChatGPT or Cursor",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits LinkedIn-only creators who want carousels inside a full growth suite; it has a trial, not a free plan.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://taplio.com/",
+        "https://taplio.com/linkedin-carousel-generator"
+      ]
+    },
+    {
+      "name": "Typegrow",
+      "url": "https://typegrow.com/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin"
+      ],
+      "makes": "LinkedIn carousels and posts, with scheduling",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A LinkedIn-only tool that says it is free for now while a paid plan is in development; its pages name no export formats.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://typegrow.com/",
+        "https://typegrow.com/pricing"
+      ]
+    },
+    {
+      "name": "WaveGen",
+      "url": "https://wavegen.ai/",
+      "focus": "linkedin",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "pinterest"
+      ],
+      "makes": "LinkedIn PDF carousels, with a free maker that needs no sign-up",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF",
+        "PNG"
+      ],
+      "postsTo": [
+        "linkedin"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Built around LinkedIn PDF carousels with direct publishing; other platforms are named but described in less detail.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://wavegen.ai/linkedin-carousel-generator"
+      ]
+    },
+    {
+      "name": "ChatSlide",
+      "url": "https://www.chatslide.ai/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "linkedin",
+        "tiktok",
+        "x"
+      ],
+      "makes": "Presentations, with a social post mode that makes carousels as numbered images or one PDF",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [
+        "PNG",
+        "PDF",
+        "ZIP",
+        "PPTX"
+      ],
+      "postsTo": [],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A presentation tool with a social post mode that uses stock images; you download the files and post them yourself.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.chatslide.ai/",
+        "https://www.chatslide.ai/guides/ai-carousel-post-maker-linkedin-instagram"
+      ]
+    },
+    {
+      "name": "Decktopus",
+      "url": "https://www.decktopus.com/",
+      "focus": "all-round",
+      "platforms": [
+        "linkedin",
+        "instagram"
+      ],
+      "makes": "AI presentations that can also be LinkedIn and Instagram carousels",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF",
+        "PNG",
+        "PPTX"
+      ],
+      "postsTo": [],
+      "api": null,
+      "mcp": true,
+      "apiNote": "Remote MCP server for Claude, Cursor and ChatGPT; the plan is not stated",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A presentation tool first, with carousels as one output; it does not post to social networks.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.decktopus.com/",
+        "https://www.decktopus.com/pricing"
+      ]
+    },
+    {
+      "name": "PostEverywhere",
+      "url": "https://posteverywhere.ai/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "tiktok",
+        "linkedin",
+        "facebook",
+        "threads",
+        "pinterest"
+      ],
+      "makes": "A scheduler with an AI studio for LinkedIn carousels and TikTok slideshows",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF"
+      ],
+      "postsTo": [
+        "instagram",
+        "tiktok",
+        "linkedin",
+        "facebook",
+        "threads",
+        "pinterest"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "API and hosted MCP server on every plan; the page does not say whether carousel making is exposed",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A scheduler first that generates image carousels and slideshows from a prompt; it has a trial, not a free plan.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://posteverywhere.ai/tools/linkedin-carousel-maker"
+      ]
+    },
+    {
+      "name": "Blotato",
+      "url": "https://blotato.com/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "tiktok",
+        "linkedin",
+        "x",
+        "facebook",
+        "threads",
+        "pinterest"
+      ],
+      "makes": "Carousels, slideshows, infographics, quote cards and avatar videos",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [],
+      "postsTo": [
+        "x",
+        "linkedin",
+        "facebook",
+        "instagram",
+        "tiktok",
+        "youtube",
+        "threads",
+        "bluesky",
+        "pinterest"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "Hosted MCP server, REST API and n8n and Make nodes, not in the trial",
+      "freePlan": "no",
+      "claimed": [
+        "ai.photos",
+        "ai.brandKit"
+      ],
+      "claimedFrom": "search summaries of help.blotato.com template pages",
+      "note": "One tool to make and post many formats to nine networks, with nodes for n8n and Make; the home page names no download formats.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://blotato.com/",
+        "https://www.blotato.com/pricing",
+        "https://help.blotato.com/api/n8n/n8n-slideshows-and-carousels"
+      ]
+    },
+    {
+      "name": "CineRads",
+      "url": "https://cinerads.com/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok"
+      ],
+      "makes": "TikTok slideshows built from a product web page",
+      "ai": {
+        "text": true,
+        "images": null,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits online shops that want slideshows made from a product URL; the free start is three generations in total.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://cinerads.com/",
+        "https://cinerads.com/pricing"
+      ]
+    },
+    {
+      "name": "Faceless",
+      "url": "https://faceless.so/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "makes": "TikTok photo slideshows and Instagram carousels from your photos",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok",
+        "instagram"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "The free browser maker puts your text on your photos with no sign-up and no AI; AI hooks and auto-posting are paid.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://faceless.so/tools/tiktok-slideshow-maker"
+      ]
+    },
+    {
+      "name": "Genviral",
+      "url": "https://www.genviral.io/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "makes": "TikTok and Instagram slideshows, plus UGC-style videos, ads and App Store screenshots",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok",
+        "instagram"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API, CLI and a remote MCP server with 33 tools on every plan",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Built for app marketers who want an AI agent to make and post slideshows; sign-up is free, but every plan is paid.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.genviral.io/",
+        "https://www.genviral.io/pricing",
+        "https://www.genviral.io/mcp"
+      ]
+    },
+    {
+      "name": "ReelFarm",
+      "url": "https://reel.farm/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "makes": "TikTok slideshows and Instagram carousels, plus UGC-style videos",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok",
+        "instagram"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API and an MCP server with 23 tools; the MCP docs say the MCP itself does not post",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits marketers who copy proven TikTok slideshow formats and run accounts on autopilot; it finds images on the web instead of making them.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://reel.farm/",
+        "https://reel.farm/features",
+        "https://reel.farm/docs"
+      ]
+    },
+    {
+      "name": "ReelMoney",
+      "url": "https://reel.money/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok"
+      ],
+      "makes": "TikTok photo slideshows and short faceless videos, with scheduling",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok",
+        "youtube",
+        "linkedin"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "MCP endpoint with a key: agents can make, schedule and read TikTok stats",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits small businesses that want scheduled TikTok slideshows from ready image packs; Instagram is listed as coming soon.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://reel.money/",
+        "https://reel.money/pricing"
+      ]
+    },
+    {
+      "name": "SendShort",
+      "url": "https://sendshort.ai/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok"
+      ],
+      "makes": "TikTok photo slideshows from saved formats, posted on a schedule",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [
+        "ZIP"
+      ],
+      "postsTo": [
+        "tiktok"
+      ],
+      "api": null,
+      "mcp": true,
+      "apiNote": "MCP and agent apps can list and schedule slideshows, not make new ones",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits creators who want a repeatable TikTok photo series with a review step before posting; TikTok only.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://sendshort.ai/tools/ai-slideshow-maker/"
+      ]
+    },
+    {
+      "name": "SlideFarm",
+      "url": "https://slidefarm.web.app/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok"
+      ],
+      "makes": "TikTok slideshows on your own images, in a phone app",
+      "ai": {
+        "text": true,
+        "images": false,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits phone-first creators who bring their own images; the AI writes the text and it posts through TikTok, but it makes no images.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://slidefarm.web.app/"
+      ]
+    },
+    {
+      "name": "SlideReels",
+      "url": "https://www.slidereels.com/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "makes": "TikTok and Instagram slideshows, plus UGC-style product videos",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [
+        "ZIP"
+      ],
+      "postsTo": [
+        "tiktok"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "AI images and slides in one place with publishing to TikTok; the page offers the first slideshows free but does not describe a lasting free plan.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.slidereels.com/"
+      ]
+    },
+    {
+      "name": "Slideshows.Studio",
+      "url": "https://slideshows.studio/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok",
+        "instagram",
+        "pinterest"
+      ],
+      "makes": "Five-slide vertical slideshows with a hook, a caption and hashtags",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [
+        "JPG",
+        "MP4"
+      ],
+      "postsTo": [],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Quick AI slides from a URL for people who post with another tool; it does not schedule or post.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://slideshows.studio/"
+      ]
+    },
+    {
+      "name": "SlideStorm",
+      "url": "https://www.slidestorm.ai/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok"
+      ],
+      "makes": "TikTok slideshows with AI images and captions",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok"
+      ],
+      "api": true,
+      "mcp": null,
+      "apiNote": "API guide linked from the site",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Aimed at faceless accounts and app promoters, with many slideshows per prompt; the free plan covers the editor, and AI slides use credits.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.slidestorm.ai/"
+      ]
+    },
+    {
+      "name": "Viraloop",
+      "url": "https://viraloop.io/",
+      "focus": "all-round",
+      "platforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "makes": "Slideshows and about 20 other formats, such as UGC videos, memes and ads",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [],
+      "postsTo": [
+        "tiktok",
+        "instagram",
+        "youtube",
+        "facebook"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API, hosted MCP server, CLI and an agent skill on paid plans",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fits brands that want many formats made and posted from one profile built from their website; the free start is ten posts once.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://viraloop.io/",
+        "https://viraloop.io/pricing"
+      ]
+    },
+    {
+      "name": "Wavegrain",
+      "url": "https://wavegrain.com/",
+      "focus": "tiktok",
+      "platforms": [
+        "tiktok",
+        "instagram",
+        "linkedin",
+        "facebook",
+        "threads",
+        "youtube"
+      ],
+      "makes": "TikTok slideshows and Instagram carousels from a topic, a website or a post you like",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "ZIP",
+        "MP4"
+      ],
+      "postsTo": [
+        "tiktok",
+        "youtube"
+      ],
+      "api": null,
+      "mcp": true,
+      "apiNote": "MCP server for Claude Code, Codex and other MCP clients",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Built for photo-led slideshows from your own photos or AI images, with approval before posting; it posts only to TikTok and YouTube.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://wavegrain.com/",
+        "https://wavegrain.com/pricing",
+        "https://wavegrain.com/compare/postnitro"
+      ]
+    },
+    {
+      "name": "Adobe Express",
+      "url": "https://www.adobe.com/express/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "linkedin",
+        "facebook"
+      ],
+      "makes": "Multi-page social posts that work as carousels, among many other designs",
+      "ai": {
+        "text": null,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PNG",
+        "JPG",
+        "PDF",
+        "MP4"
+      ],
+      "postsTo": [],
+      "api": true,
+      "mcp": false,
+      "apiNote": "Express API through Firefly Services, by request; its MCP server serves developer docs, not designs",
+      "freePlan": "yes",
+      "claimed": [
+        "platforms",
+        "exports"
+      ],
+      "claimedFrom": "search results; the Instagram post page lists no file formats and no carousel page exists",
+      "note": "Good for teams already on Adobe; a carousel is a multi-page project, and Adobe has no dedicated carousel generator.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.adobe.com/express/create/post/instagram",
+        "https://developer.adobe.com/express/",
+        "https://www.adobe.com/express/learn/blog/multiple-page-projects"
+      ]
+    },
+    {
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "makes": "Carousels as multi-page designs from templates, among almost any other design",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PNG",
+        "JPG",
+        "PDF",
+        "PPTX",
+        "GIF",
+        "MP4"
+      ],
+      "postsTo": [],
+      "api": true,
+      "mcp": true,
+      "apiNote": "Connect REST API and a remote MCP server that create, edit, resize and export designs",
+      "freePlan": "yes",
+      "claimed": [
+        "platforms",
+        "ai.text",
+        "ai.images",
+        "ai.photos",
+        "ai.brandKit"
+      ],
+      "claimedFrom": "search results of canva.com template and feature pages, which blocked our reader; the API, MCP and export facts are from canva.dev",
+      "note": "A very large template library and a full design editor, where you build each slide yourself; we could not confirm that its Content Planner posts carousels.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.canva.com/instagram-posts/templates/carousel/",
+        "https://www.canva.dev/docs/mcp/",
+        "https://www.canva.dev/docs/connect/",
+        "https://www.canva.dev/docs/connect/api-reference/exports/"
+      ]
+    },
+    {
+      "name": "Gamma",
+      "url": "https://gamma.app/",
+      "focus": "all-round",
+      "platforms": [
+        "linkedin",
+        "instagram"
+      ],
+      "makes": "Presentations, documents and web pages, with a Social format for carousel cards",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [
+        "PDF",
+        "PNG"
+      ],
+      "postsTo": [],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API with keys on every plan, and a hosted MCP server",
+      "freePlan": "yes",
+      "claimed": [
+        "platforms",
+        "exports"
+      ],
+      "claimedFrom": "search results of gamma.app guides, which blocked our reader; the API and MCP facts are from developers.gamma.app",
+      "note": "Turns text or a document into designed cards; social carousels are one format of many, and you post them yourself.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://developers.gamma.app/",
+        "https://gamma.app/explore/content/guides/ai-tools-social-media-carousels"
+      ]
+    },
+    {
+      "name": "Ocoya",
+      "url": "https://www.ocoya.com/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "makes": "Carousels designed in its studio and posted to Instagram or as LinkedIn PDF documents",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PDF"
+      ],
+      "postsTo": [
+        "instagram",
+        "linkedin",
+        "facebook",
+        "x",
+        "pinterest",
+        "threads",
+        "tiktok",
+        "bluesky"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API with SDKs and an MCP server; the docs do not show carousel support",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A scheduler with AI writing and a design studio that posts to many networks; it has a trial, not a free plan.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.ocoya.com/",
+        "https://www.ocoya.com/integrations/linkedin",
+        "https://www.ocoya.com/pricing",
+        "https://docs.ocoya.com/"
+      ]
+    },
+    {
+      "name": "Piktochart",
+      "url": "https://piktochart.com/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram",
+        "linkedin",
+        "facebook"
+      ],
+      "makes": "AI carousels for Instagram, Facebook and LinkedIn, plus infographics and presentations",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [
+        "PNG",
+        "PDF"
+      ],
+      "postsTo": [],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [
+        "exports"
+      ],
+      "claimedFrom": "search results of piktochart.com carousel pages, which blocked our reader",
+      "note": "An infographic tool that added AI carousel makers; it exports files for you to post yourself.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://piktochart.com/",
+        "https://piktochart.com/ai-carousel-maker/"
+      ]
+    },
+    {
+      "name": "Pippit",
+      "url": "https://www.pippit.ai/",
+      "focus": "all-round",
+      "platforms": [
+        "tiktok",
+        "instagram"
+      ],
+      "makes": "Photo slideshow videos and carousel templates, plus AI video and image tools",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": null
+      },
+      "exports": [
+        "MP4"
+      ],
+      "postsTo": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "From the makers of CapCut; good for turning your photos into slideshow videos, but its slideshows are videos rather than photo posts.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.pippit.ai/",
+        "https://www.pippit.ai/create/slideshow-video-maker",
+        "https://www.pippit.ai/pricing"
+      ]
+    },
+    {
+      "name": "Predis.ai",
+      "url": "https://predis.ai/",
+      "focus": "instagram",
+      "platforms": [
+        "instagram",
+        "linkedin"
+      ],
+      "makes": "Carousels with slide text, caption and hashtags, plus ads, posts and videos",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [],
+      "postsTo": [
+        "instagram",
+        "linkedin"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API with a LinkedIn carousel endpoint, and an MCP server with a carousel preset that does not post",
+      "freePlan": "no",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Fast prompt-to-carousel with scheduling, aimed at marketers and ads; it has a short trial, and its pages name no export formats.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://predis.ai/",
+        "https://predis.ai/instagram-carousel-maker/",
+        "https://predis.ai/api/linkedin-carousel-api/",
+        "https://predis.ai/mcp/",
+        "https://predis.ai/pricing/"
+      ]
+    },
+    {
+      "name": "Simplified",
+      "url": "https://simplified.com/",
+      "focus": "all-round",
+      "platforms": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "facebook",
+        "pinterest",
+        "x"
+      ],
+      "makes": "Editable AI carousels from a topic, inside a design, writing and scheduling suite",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "PNG",
+        "PDF"
+      ],
+      "postsTo": [
+        "linkedin",
+        "instagram",
+        "tiktok",
+        "facebook",
+        "pinterest",
+        "x"
+      ],
+      "api": true,
+      "mcp": true,
+      "apiNote": "REST API and a hosted MCP server; the MCP page does not mention carousels",
+      "freePlan": "yes",
+      "claimed": [
+        "postsTo"
+      ],
+      "claimedFrom": "search results of simplified.com scheduler pages",
+      "note": "An all-in-one suite for small teams that writes, designs and schedules; the free plan limits accounts and scheduled posts.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://simplified.com/ai-carousel-generator",
+        "https://simplified.com/mcp-server",
+        "https://simplified.com/social-media-scheduler"
+      ]
+    },
+    {
+      "name": "Venngage",
+      "url": "https://venngage.com/",
+      "focus": "all-round",
+      "platforms": [
+        "linkedin",
+        "instagram"
+      ],
+      "makes": "AI carousels and carousel templates, exported as images or a PDF",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": true
+      },
+      "exports": [
+        "PNG",
+        "PDF"
+      ],
+      "postsTo": [],
+      "api": null,
+      "mcp": null,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "A simple topic-to-slides flow with a brand kit; it ends at the export and has no scheduler.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://venngage.com/ai-tools/carousel-generator",
+        "https://venngage.com/"
+      ]
+    },
+    {
+      "name": "VistaCreate",
+      "url": "https://create.vista.com/",
+      "focus": "instagram",
+      "platforms": [
+        "instagram"
+      ],
+      "makes": "Instagram carousel templates and multi-page designs, scheduled as one carousel post",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": null,
+        "brandKit": null
+      },
+      "exports": [
+        "PDF",
+        "JPG",
+        "PNG",
+        "MP4",
+        "GIF"
+      ],
+      "postsTo": [
+        "instagram",
+        "facebook",
+        "pinterest"
+      ],
+      "api": true,
+      "mcp": false,
+      "apiNote": "API suite for the editor, templates and stock library, sold on request",
+      "freePlan": "yes",
+      "claimed": [
+        "exports",
+        "postsTo"
+      ],
+      "claimedFrom": "search results of support.create.vista.com help articles, which blocked our reader",
+      "note": "A template editor with AI text and image tools and a scheduler for business accounts; carousels are built by hand from templates.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://create.vista.com/",
+        "https://create.vista.com/features/social-media-scheduler/",
+        "https://create.vista.com/suite-api/",
+        "https://support.create.vista.com/hc/en-us/articles/360021367319-VistaCreate-Free-Starter-Plan"
+      ]
+    },
+    {
+      "name": "Visme",
+      "url": "https://www.visme.co/",
+      "focus": "all-round",
+      "platforms": [
+        "instagram"
+      ],
+      "makes": "Instagram carousel posts from templates, plus presentations, documents and charts",
+      "ai": {
+        "text": true,
+        "images": true,
+        "photos": true,
+        "brandKit": true
+      },
+      "exports": [
+        "JPG",
+        "PNG",
+        "PDF",
+        "PPTX",
+        "GIF",
+        "MP4"
+      ],
+      "postsTo": [],
+      "api": false,
+      "mcp": false,
+      "apiNote": "",
+      "freePlan": "yes",
+      "claimed": [],
+      "claimedFrom": "",
+      "note": "Also makes charts, documents and presentations; carousels come from templates, and the free plan adds a watermark.",
+      "read": "2026-11-17",
+      "sources": [
+        "https://www.visme.co/",
+        "https://www.visme.co/templates/social-media-graphics/instagram-carousel-posts/"
+      ]
+    }
+  ],
+  "openSource": [
+    {
+      "name": "Open Carrusel",
+      "repo": "Hainrixz/open-carrusel",
+      "url": "https://github.com/Hainrixz/open-carrusel",
+      "kind": "app",
+      "makes": "Instagram carousels exported as PNG at Instagram sizes",
+      "license": "MIT",
+      "stars": 528,
+      "lastPush": "2026-10-25",
+      "note": "A local Next.js app where you design slides by chatting with Claude, then export PNGs.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "SlideSmith",
+      "repo": "athcagithub/SlideSmith",
+      "url": "https://github.com/athcagithub/SlideSmith",
+      "kind": "app",
+      "makes": "TikTok and Instagram slideshows, scheduled through a posting service",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "stars": 340,
+      "lastPush": "2026-06-11",
+      "note": "A local dashboard that writes slideshows with a language model; the noncommercial license rules out business use.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "Vertica",
+      "repo": "owainlewis/vertica",
+      "url": "https://github.com/owainlewis/vertica",
+      "kind": "app",
+      "makes": "Image and video carousels, exported as PDF, numbered JPGs or MP4",
+      "license": "MIT",
+      "stars": 18,
+      "lastPush": "2026-10-15",
+      "note": "A small local studio where each deck is a JSON file that you write by hand or paste from an AI chat.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "mkcr",
+      "repo": "ludusrusso/mkcr",
+      "url": "https://github.com/ludusrusso/mkcr",
+      "kind": "app",
+      "makes": "LinkedIn carousel PDFs and PNGs from HTML and Tailwind",
+      "license": "Apache-2.0",
+      "stars": 11,
+      "lastPush": "2026-10-20",
+      "note": "A Go command-line tool meant for AI agents to render carousel files from HTML, with no visual editor.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "ALIGNED",
+      "repo": "qwert2813434-ctrl/ALIGNED",
+      "url": "https://github.com/qwert2813434-ctrl/ALIGNED",
+      "kind": "app",
+      "makes": "Instagram carousels laid out on one continuous canvas, for Mac and Windows",
+      "license": "GPL-3.0",
+      "stars": 21,
+      "lastPush": "2026-11-10",
+      "note": "A free desktop editor for carousels where one image runs across all the slides; you design by hand, without AI.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "open-larryloop",
+      "repo": "Anil-matcha/open-larryloop",
+      "url": "https://github.com/Anil-matcha/open-larryloop",
+      "kind": "app",
+      "makes": "TikTok and Instagram carousel slides, with publishing",
+      "license": "MIT",
+      "stars": 14,
+      "lastPush": "2026-09-02",
+      "note": "A young project that generates and publishes slides; we read its README, not its code.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "tiktok-carousel-generator",
+      "repo": "NaufalRizqullah/tiktok-carousel-generator",
+      "url": "https://github.com/NaufalRizqullah/tiktok-carousel-generator",
+      "kind": "app",
+      "makes": "Vertical carousel slides with AI-written text",
+      "license": "MIT",
+      "stars": 11,
+      "lastPush": "2026-05-28",
+      "note": "A Python script for making slides in batches; a small project with one main author.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "Satori",
+      "repo": "vercel/satori",
+      "url": "https://github.com/vercel/satori",
+      "kind": "library",
+      "makes": "Turns HTML and CSS written as JSX into SVG, so slides can be rendered from code",
+      "license": "MPL-2.0",
+      "stars": 14194,
+      "lastPush": "2026-11-12",
+      "note": "The usual engine for rendering slide images from React components without a browser; it supports a subset of CSS.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "Remotion",
+      "repo": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "kind": "library",
+      "makes": "Videos and animated slideshows from React code",
+      "license": "Remotion License (source-available)",
+      "stars": 73825,
+      "lastPush": "2026-11-17",
+      "note": "The common choice for video slideshows from code; larger companies need a paid company license.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "Puppeteer",
+      "repo": "puppeteer/puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "kind": "library",
+      "makes": "Headless Chrome that screenshots HTML slides or prints them to a multi-page PDF",
+      "license": "Apache-2.0",
+      "stars": 95848,
+      "lastPush": "2026-11-17",
+      "note": "Not made for carousels, but a common way to turn HTML slides into PNGs or a LinkedIn PDF.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "Slidev",
+      "repo": "slidevjs/slidev",
+      "url": "https://github.com/slidevjs/slidev",
+      "kind": "library",
+      "makes": "Slide decks written in Markdown, exported to PDF or PNG",
+      "license": "MIT",
+      "stars": 49531,
+      "lastPush": "2026-11-05",
+      "note": "A presentation tool for developers that also works for PDF carousels once you set the page size.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "slidev-theme-linkedin-carousel",
+      "repo": "Open-reSource/slidev-theme-linkedin-carousel",
+      "url": "https://github.com/Open-reSource/slidev-theme-linkedin-carousel",
+      "kind": "library",
+      "makes": "A Slidev theme for LinkedIn carousels",
+      "license": "MIT",
+      "stars": 27,
+      "lastPush": "2026-11-16",
+      "note": "Lets you write a LinkedIn carousel in Markdown and export a PDF; you need to be at home with Node tools.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "Marp CLI",
+      "repo": "marp-team/marp-cli",
+      "url": "https://github.com/marp-team/marp-cli",
+      "kind": "library",
+      "makes": "Markdown slides converted to PDF, PNG or PPTX",
+      "license": "MIT",
+      "stars": 3936,
+      "lastPush": "2026-09-08",
+      "note": "A simple Markdown to PDF or image route for carousels; you set the slide size yourself.",
+      "read": "2026-11-17"
+    },
+    {
+      "name": "react-pdf",
+      "repo": "diegomura/react-pdf",
+      "url": "https://github.com/diegomura/react-pdf",
+      "kind": "library",
+      "makes": "PDF files built from React components",
+      "license": "MIT",
+      "stars": 16859,
+      "lastPush": "2026-11-16",
+      "note": "Renders multi-page PDFs from React, which suits LinkedIn document posts; layout and text only.",
+      "read": "2026-11-17"
+    }
+  ]
+}
