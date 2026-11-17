@@ -3,10 +3,10 @@
 - **Cluster:** tools
 - **Status:** active
 - **What:** public GitHub awesome list of AI carousel and TikTok slideshow tools, each read on its own website (makes, AI, exports, posting, API or MCP, free plan), generated from one data file
-- **Live at:** not published yet (planned: https://github.com/wavegrain/awesome-ai-carousel-tools)
-- **Deploy:** not deployable; publishing is a push to a public GitHub repo, after the owner's go
+- **Live at:** https://github.com/wavegrain/awesome-ai-carousel-tools
+- **Deploy:** not deployable; publishing is a push to the public GitHub repo
 - **Read first:** `tasks/todo.md`
-- **Truth:** local main until the repo is published, then origin/main
+- **Truth:** origin/main
 - **Last verified:** 2026-11-17
 <!-- /project-header -->
 
@@ -23,7 +23,7 @@ The team behind Wavegrain maintains it, and Wavegrain is one entry like the othe
 - `data/tools.json` is the only source; `README.md`, `lists/`, `downloads/` and `assets/header-*.svg` are generated.
   Edit the data or `templates/README.md`, then run `npm run build`.
 - `npm run check` validates the data and fails when a generated file is stale; run it before every commit.
-- `npm run lint` runs awesome-lint; the `awesome-github` rule can pass only once the repo is on GitHub.
+- `npm run lint` runs awesome-lint, including the `awesome-github` rule that reads the repo's description, topics and license on GitHub.
 - Fairness: tables stay A to Z, Wavegrain gets no badge, no top spot and no extra text, and its note is as plain as its competitors'.
   "Maintained by the Wavegrain team" sits only in the footer, and the FAQ says so openly.
 - No prices for any tool, Wavegrain included; the build fails on a price pattern.
