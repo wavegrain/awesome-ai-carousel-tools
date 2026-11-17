@@ -107,7 +107,7 @@ Tools built mainly for TikTok photo slideshows, often for faceless accounts or a
 | [SlideReels](https://www.slidereels.com/)       | TikTok and Instagram slideshows, plus UGC-style product videos                        | ✍️ 🎨       | ZIP      | TikTok                    | ?         | No        | AI images and slides in one place with publishing to TikTok; the page offers the first slideshows free but does not describe a lasting free plan. |
 | [Slideshows.Studio](https://slideshows.studio/) | Five-slide vertical slideshows with a hook, a caption and hashtags                    | ✍️ 🎨       | JPG, MP4 | -                         | ?         | No        | Quick AI slides from a URL for people who post with another tool; it does not schedule or post.                                                   |
 | [SlideStorm](https://www.slidestorm.ai/)        | TikTok slideshows with AI images and captions                                         | ✍️ 🎨 📷    | ?        | TikTok                    | API       | Yes       | Aimed at faceless accounts and app promoters, with many slideshows per prompt; the free plan covers the editor, and AI slides use credits.        |
-| [Wavegrain](https://wavegrain.com/)             | TikTok slideshows and Instagram carousels from a topic, a website or a post you like  | ✍️ 🎨 📷 🎯 | ZIP, MP4 | TikTok, YouTube           | MCP       | No        | Built for photo-led slideshows from your own photos or AI images, with approval before posting; it posts only to TikTok and YouTube.              |
+| [Wavegrain](https://wavegrain.com/)             | TikTok slideshows and Instagram carousels from a topic, a website or a post you like  | ✍️ 🎨 📷 🎯 | ZIP, MP4 | TikTok, YouTube           | API + MCP | No        | Built for photo-led slideshows from your own photos or AI images, with approval before posting; it posts only to TikTok and YouTube.              |
 
 ### All-round design and content tools
 
@@ -175,31 +175,31 @@ An MCP server (Model Context Protocol) lets an AI assistant such as Claude, Chat
 Some tools offer these only on higher plans.
 The [full view](lists/with-api-or-mcp.md) has links and dates.
 
-| Tool           | API | MCP server | What you can do with it                                                                                 |
-| -------------- | --- | ---------- | ------------------------------------------------------------------------------------------------------- |
-| Adobe Express  | Yes | -          | Express API through Firefly Services, by request; its MCP server serves developer docs, not designs     |
-| Blotato        | Yes | Yes        | Hosted MCP server, REST API and n8n and Make nodes, not in the trial                                    |
-| BrandBird      | Yes | ?          | API page and a JavaScript SDK linked from the footer                                                    |
-| Canva          | Yes | Yes        | Connect REST API and a remote MCP server that create, edit, resize and export designs                   |
-| Contentdrips   | Yes | Yes        | REST API and MCP server; the pricing page lists them on the Pro plan                                    |
-| ContentIn      | -   | Yes        | MCP server for Claude, ChatGPT and Cursor on paid plans; a free agent tier only schedules and publishes |
-| Decktopus      | ?   | Yes        | Remote MCP server for Claude, Cursor and ChatGPT; the plan is not stated                                |
-| Gamma          | Yes | Yes        | REST API with keys on every plan, and a hosted MCP server                                               |
-| Genviral       | Yes | Yes        | REST API, CLI and a remote MCP server with 33 tools on every plan                                       |
-| Ocoya          | Yes | Yes        | REST API with SDKs and an MCP server; the docs do not show carousel support                             |
-| PostEverywhere | Yes | Yes        | API and hosted MCP server on every plan; the page does not say whether carousel making is exposed       |
-| PostNitro      | Yes | Yes        | REST API, CLI and an MCP server with 40 tools, as an add-on or in higher plans                          |
-| Predis.ai      | Yes | Yes        | REST API with a LinkedIn carousel endpoint, and an MCP server with a carousel preset that does not post |
-| ReelFarm       | Yes | Yes        | REST API and an MCP server with 23 tools; the MCP docs say the MCP itself does not post                 |
-| ReelMoney      | Yes | Yes        | MCP endpoint with a key: agents can make, schedule and read TikTok stats                                |
-| SendShort      | ?   | Yes        | MCP and agent apps can list and schedule slideshows, not make new ones                                  |
-| Simplified     | Yes | Yes        | REST API and a hosted MCP server; the MCP page does not mention carousels                               |
-| SlideStorm     | Yes | ?          | API guide linked from the site                                                                          |
-| Supergrow      | Yes | Yes        | MCP server on Pro; API on Enterprise                                                                    |
-| Taplio         | ?   | Yes        | MCP server to search ideas and create or fetch drafts from Claude, ChatGPT or Cursor                    |
-| Viraloop       | Yes | Yes        | REST API, hosted MCP server, CLI and an agent skill on paid plans                                       |
-| VistaCreate    | Yes | -          | API suite for the editor, templates and stock library, sold on request                                  |
-| Wavegrain      | ?   | Yes        | MCP server for Claude Code, Codex and other MCP clients                                                 |
+| Tool           | API | MCP server | What you can do with it                                                                                                                |
+| -------------- | --- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Adobe Express  | Yes | -          | Express API through Firefly Services, by request; its MCP server serves developer docs, not designs                                    |
+| Blotato        | Yes | Yes        | Hosted MCP server, REST API and n8n and Make nodes, not in the trial                                                                   |
+| BrandBird      | Yes | ?          | API page and a JavaScript SDK linked from the footer                                                                                   |
+| Canva          | Yes | Yes        | Connect REST API and a remote MCP server that create, edit, resize and export designs                                                  |
+| Contentdrips   | Yes | Yes        | REST API and MCP server; the pricing page lists them on the Pro plan                                                                   |
+| ContentIn      | -   | Yes        | MCP server for Claude, ChatGPT and Cursor on paid plans; a free agent tier only schedules and publishes                                |
+| Decktopus      | ?   | Yes        | Remote MCP server for Claude, Cursor and ChatGPT; the plan is not stated                                                               |
+| Gamma          | Yes | Yes        | REST API with keys on every plan, and a hosted MCP server                                                                              |
+| Genviral       | Yes | Yes        | REST API, CLI and a remote MCP server with 33 tools on every plan                                                                      |
+| Ocoya          | Yes | Yes        | REST API with SDKs and an MCP server; the docs do not show carousel support                                                            |
+| PostEverywhere | Yes | Yes        | API and hosted MCP server on every plan; the page does not say whether carousel making is exposed                                      |
+| PostNitro      | Yes | Yes        | REST API, CLI and an MCP server with 40 tools, as an add-on or in higher plans                                                         |
+| Predis.ai      | Yes | Yes        | REST API with a LinkedIn carousel endpoint, and an MCP server with a carousel preset that does not post                                |
+| ReelFarm       | Yes | Yes        | REST API and an MCP server with 23 tools; the MCP docs say the MCP itself does not post                                                |
+| ReelMoney      | Yes | Yes        | MCP endpoint with a key: agents can make, schedule and read TikTok stats                                                               |
+| SendShort      | ?   | Yes        | MCP and agent apps can list and schedule slideshows, not make new ones                                                                 |
+| Simplified     | Yes | Yes        | REST API and a hosted MCP server; the MCP page does not mention carousels                                                              |
+| SlideStorm     | Yes | ?          | API guide linked from the site                                                                                                         |
+| Supergrow      | Yes | Yes        | MCP server on Pro; API on Enterprise                                                                                                   |
+| Taplio         | ?   | Yes        | MCP server to search ideas and create or fetch drafts from Claude, ChatGPT or Cursor                                                   |
+| Viraloop       | Yes | Yes        | REST API, hosted MCP server, CLI and an agent skill on paid plans                                                                      |
+| VistaCreate    | Yes | -          | API suite for the editor, templates and stock library, sold on request                                                                 |
+| Wavegrain      | Yes | Yes        | Posting API under /api/v1 and a Carousel API in the docs, with access keys; an MCP server with 79 tools makes and schedules slideshows |
 
 ## Open source
 

@@ -978,9 +978,9 @@
         "tiktok",
         "youtube"
       ],
-      "api": null,
+      "api": true,
       "mcp": true,
-      "apiNote": "MCP server for Claude Code, Codex and other MCP clients",
+      "apiNote": "Posting API under /api/v1 and a Carousel API in the docs, with access keys; an MCP server with 79 tools makes and schedules slideshows",
       "freePlan": "no",
       "claimed": [],
       "claimedFrom": "",
@@ -989,7 +989,8 @@
       "sources": [
         "https://wavegrain.com/",
         "https://wavegrain.com/pricing",
-        "https://wavegrain.com/compare/postnitro"
+        "https://wavegrain.com/compare/postnitro",
+        "https://wavegrain.com/developers"
       ]
     },
     {
