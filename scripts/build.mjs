@@ -86,7 +86,7 @@ const sorted = (list) => [...list].sort(byName);
 
 const aiCell = (d) => {
   const on = AI_KEYS.filter((k) => d.ai[k]).map((k) => mark(d, `ai.${k}`, AI_ICON[k]));
-  return on.length ? on.join(' ') : '-';
+  return on.length ? on.join('\u00a0') : '-';
 };
 const exportCell = (d) => (d.exports.length ? mark(d, 'exports', d.exports.join(', ')) : '?');
 const postsCell = (d) => (d.postsTo.length ? mark(d, 'postsTo', d.postsTo.map((p) => NET[p]).join(', ')) : '-');
