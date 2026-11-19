@@ -36,6 +36,23 @@ Research: [research/ANALYSIS.md](../research/ANALYSIS.md).
 - [x] Wiki and Projects off; Issues on for corrections.
 - [x] `npm run lint` passes in full after publishing (exit 0, 2026-11-17).
 
+## Badge test (test 2 of `backlinks/DIRECTORIES.md`, started 2026-11-19)
+
+Question: will makers show an optional badge if we ask once, with no gate?
+- [x] Light and dark badge in `assets/`, a "Badge for listed tools" section with the snippet in the README (2026-11-19).
+- [ ] [decide] Send the mail below once to each listed tool's public contact address, from `support@wavegrain.com` (rec: yes, only the 39 tools, no follow-up mail, raised 2026-11-19)
+- [ ] 30 days after the mails: count pages that link to the repo (GitHub Insights, Traffic, Referring sites; and a web search for the badge alt text) and write the number into `backlinks/DIRECTORIES.md`.
+
+Mail draft:
+
+> Subject: <Tool> is listed in Awesome AI Carousel Tools
+>
+> Hi <Tool> team,
+> we added <Tool> to Awesome AI Carousel Tools, a public GitHub list that compares carousel and slideshow tools on what they make, export and post: https://github.com/wavegrain/awesome-ai-carousel-tools
+> If anything about <Tool> is wrong or out of date, reply or open an issue and we fix it.
+> If you like, there is an optional "Listed in" badge in the README; the listing does not depend on it.
+> Thanks, the Wavegrain team
+
 ## Later
 
 - [ ] Re-read every tool every two or three months; drop tools that stop making carousels.

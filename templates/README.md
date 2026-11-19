@@ -36,6 +36,7 @@ We record no prices, because they change too often to keep right.
 - [How to pick a carousel tool](#how-to-pick-a-carousel-tool)
 - [FAQ](#faq)
 - [Download the data](#download-the-data)
+- [Badge for listed tools](#badge-for-listed-tools)
 
 ## How to read the tables
 
@@ -179,6 +180,19 @@ If a tool that makes carousels or slideshows is missing, add it; the Contributin
 
 The data is public domain under [CC0](license).
 A link back is welcome but not required.
+
+## Badge for listed tools
+
+If your tool is in this list, you may show this badge on your site.
+It is optional: no listing here depends on it, and `nofollow` is fine.
+
+<img src="assets/badge-listed-light.svg" alt="Listed in Awesome AI Carousel Tools" width="244" height="54">
+
+```html
+<a href="https://github.com/wavegrain/awesome-ai-carousel-tools" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/wavegrain/awesome-ai-carousel-tools/main/assets/badge-listed-light.svg" alt="Listed in Awesome AI Carousel Tools" width="244" height="54"></a>
+```
+
+For a dark page, use `badge-listed-dark.svg` instead.
 
 ## Contributing
 
