@@ -1,11 +1,11 @@
 <!-- now -->
 ## Now
 
-- **Updated:** 2026-11-17
-- **Last done:** 2026-11-17: published as https://github.com/wavegrain/awesome-ai-carousel-tools (public, description, 20 topics, Wiki and Projects off); `npm run lint` passes in full.
+- **Updated:** 2026-11-25
+- **Last done:** 2026-11-25: social preview uploaded in the owner's Chrome (GraphQL `usesCustomOpenGraphImage` true). 2026-11-17: published as https://github.com/wavegrain/awesome-ai-carousel-tools (public, description, 20 topics, Wiki and Projects off); `npm run lint` passes in full.
 - **In progress:** none.
-- **Next:** owner uploads the social preview; re-read the tools in two to three months.
-- **Blocked:** [mac] social preview upload: Settings, Social preview, `assets/social-preview.png` (GitHub's CLI cannot upload it).
+- **Next:** re-read the tools in two to three months.
+- **Blocked:** none.
 <!-- /now -->
 
 # Plan: Awesome AI Carousel Tools (option 3 of `.scratch/own-directory/PLAN.md`)
@@ -32,7 +32,7 @@ Research: [research/ANALYSIS.md](../research/ANALYSIS.md).
 - [x] Create the public repo, push `main` (2026-11-17).
 - [x] Description: `AI carousel makers and TikTok slideshow tools compared: LinkedIn carousels, Instagram carousels and TikTok photo slideshows, with AI features, exports, posting, API or MCP, and free plan.`
 - [x] Topics (20): `awesome`, `awesome-list`, `carousel`, `carousel-maker`, `ai-carousel`, `linkedin-carousel`, `instagram-carousel`, `tiktok-slideshow`, `slideshow`, `social-media`, `social-media-marketing`, `content-creation`, `ai-tools`, `linkedin`, `instagram`, `tiktok`, `mcp`, `mcp-server`, `open-source`, `marketing`.
-- [ ] [mac] Settings, Social preview: upload `assets/social-preview.png`.
+- [x] Settings, Social preview: upload `assets/social-preview.png`. Done 2026-11-25 in the owner's Chrome; GraphQL `usesCustomOpenGraphImage` is true.
 - [x] Wiki and Projects off; Issues on for corrections.
 - [x] `npm run lint` passes in full after publishing (exit 0, 2026-11-17).
 
